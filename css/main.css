@@ -1,3 +1,39 @@
+/* Main Info */
+/*
+// main color :
+// main font-family :
+*/
+
+/* Main */
+body
+{
+    height: 2000px;
+}
+
+/* Full Header */
+.full-header
+{
+    background-image: url(../img/Gray-plain-website-background.jpg);
+    background-size: 1340px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+.bg-dark
+{
+    background-color: #0000006b!important;
+}
+
+/* Header */
+.header .content
+{
+    height: 700px;
+    width: 100%;
+    background-color: #0000006b;
+}
+
+/*Fixed*/
 .fade:not(.show)
 {
     opacity: 1;
