@@ -19,80 +19,125 @@
     <body>
       <!-- Start Upperbar -->
       <div class="upperbar">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-google-plus-g"></i>
-        <i class="fab fa-twitter"></i>
-        <span>follow us on</span>
+        <div class="container">
+          <i class="fab fa-facebook-f facebook"></i>
+          <i class="fab fa-google-plus-g google-plus"></i>
+          <i class="fab fa-twitter twitter"></i>
+          <span>follow us on</span>
+        </div>
       </div>
       <!-- End Upperbar -->
 
       <!-- Start Main Navbar -->
       <nav class="navbar main-navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">In Theaters</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Coming Soon</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Conact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Advertise</a>
-            </li>
-          </ul>
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">In Theaters</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Coming Soon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Advertise</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <!-- End Main Navbar -->
-
+      
       <!-- Start secondary Navbar -->
       <nav class="navbar secondary-navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Show All</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Latest Trailers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Top Rated</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Most Commented</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-          </form>
+        <div class="container">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Show All</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Latest Trailers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Top Rated</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Box Office</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
         </div>
       </nav>
       <!-- End secondary Navbar -->
-
-      <!-- Start Latest-Trailers & Most-Commented Section -->
-      <section class="trailers-commented">
-        <article class="latest-trailers">
-          <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/8_rTIAOohas" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      
+      <!-- Start Latest-Trailers & Box-Office Section -->
+      <section class="trailers-box-office">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8">
+              <article class="latest-trailers">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/8_rTIAOohas" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+              </article>
+            </div>
+            <div class="col-xl-4">
+              <aside class="box-office">
+                <h4>Box Office</h4>
+                <div class="box-office-content">
+                  <ul class="box-office-ul list-unstyled">
+                    <li class="box-offfice-item">
+                      <span class="badge badge-secondary">1</span>
+                      <a class="box-offfice-link" href="#">Ant-Man and the Wasp</a>
+                      <span class="count">$75.8M</span>
+                    </li>
+                    <li class="box-offfice-item">
+                      <span class="badge badge-secondary">2</span>
+                      <a class="box-offfice-link" href="#">Jurassic World: Fallen Kingdom</a>
+                      <span class="count">$28.6M</span>
+                    </li>
+                    <li class="box-offfice-item">
+                      <span class="badge badge-secondary">3</span>
+                      <a class="box-offfice-link" href="#">Incredibles 2</a>
+                      <span class="count">$28.4M</span>
+                    </li>
+                    <li class="box-offfice-item">
+                      <span class="badge badge-secondary">4</span>
+                      <a class="box-offfice-link" href="#">The First Purge</a>
+                      <span class="count">$17.4M</span>
+                    </li>
+                    <li class="box-offfice-item">
+                      <span class="badge badge-secondary">5</span>
+                      <a class="box-offfice-link" href="#">Sicario: Day of the Soldado</a>
+                      <span class="count">$7.6M</span>
+                    </li>
+                  </ul>
+                  <a class="see-more" href="#">See more opening this week</a>
+                  <i class="icon fas fa-angle-double-right"></i>
+                </div>
+              </aside>
+            </div>
           </div>
-        </article>
-        <aside class="most-commented">
-
-        </aside>
+        </div>
       </section>
       <!-- End Latest-Trailers & Most-Commented Section -->
 
