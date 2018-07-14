@@ -135,13 +135,13 @@ body
 .trailers-box-office .box-office
 {
     background-color: #FFF;
-    border: 4px solid #929292;
 }
 
 .trailers-box-office .box-office h4
 {
     background-color: #d4d4d4;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: bold;
@@ -149,8 +149,8 @@ body
 
 .trailers-box-office .box-office .box-office-content
 {
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .trailers-box-office .box-office ul
@@ -161,7 +161,8 @@ body
 
 .trailers-box-office .box-office ul li
 {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .trailers-box-office .box-office ul li a
@@ -187,7 +188,7 @@ body
 
 .trailers-box-office .box-office .see-more
 {
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 14px;
 }
 
@@ -197,6 +198,58 @@ body
     color: #929292;
 }
 
+/* Top Rated */
+.top-rated
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.top-rated .slider
+{
+    width: 100%;
+}
+
+.top-rated .slider .slider-item
+{
+    height: 400px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.top-rated .slider .slick-prev,
+.top-rated .slider .slick-next
+{
+    z-index: 9999;
+}
+
+.top-rated .slider .slick-prev::before,
+.top-rated .slider .slick-next:before
+{
+    font-family: FontAwesome;
+    font-weight: 900;
+    font-size: 50px;
+    background-color: #ececec;
+    color: #1e272e;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+}
+
+.top-rated .slider .slick-prev::before
+{
+    content: "\f053";
+    left: 100px;
+}
+
+.top-rated .slider .slick-next:before
+{
+    content: "\f054";
+    right: 100px;
+}
 
 /*Fixed*/
 .fade:not(.show)

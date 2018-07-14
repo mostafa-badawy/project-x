@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page Title</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/fontawesome-all.min.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="semantic/dist/semantic.min.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Knewave|Open+Sans" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-        <!--[if lt IE 9]>
-        <script src="script/html5shiv.min.js"></script>
-        <script src="script/respond.min.js"></script>
-        <![endif]-->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <title>Page Title</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />>
+      <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="semantic/dist/semantic.min.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/slick.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/slick-theme.css" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Knewave|Open+Sans" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+      <!--[if lt IE 9]>
+      <script src="script/html5shiv.min.js"></script>
+      <script src="script/respond.min.js"></script>
+      <![endif]-->
     </head>
     <body>
       <!-- Start Upperbar -->
       <div class="upperbar">
         <div class="container">
-          <i class="fab fa-facebook-f facebook"></i>
-          <i class="fab fa-google-plus-g google-plus"></i>
-          <i class="fab fa-twitter twitter"></i>
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-google-plus" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
           <span>follow us on</span>
         </div>
       </div>
@@ -82,7 +84,7 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+              <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
             </form>
           </div>
         </div>
@@ -101,7 +103,7 @@
               </article>
             </div>
             <div class="col-xl-4">
-              <aside class="box-office">
+              <aside class="box-office shadow-sm p-3 mb-5 bg-white rounded">
                 <h4>Box Office</h4>
                 <div class="box-office-content">
                   <ul class="box-office-ul list-unstyled">
@@ -141,10 +143,24 @@
       </section>
       <!-- End Latest-Trailers & Most-Commented Section -->
 
+      <!-- Start Top Rated Section -->
+      <section class="top-rated">
+        <div class="slider">
+          <div class="slider-item shadow p-3 mb-5 bg-white rounded">item 1</div>
+          <div class="slider-item shadow p-3 mb-5 bg-white rounded">item 2</div>
+          <div class="slider-item shadow p-3 mb-5 bg-white rounded">item 3</div>
+          <div class="slider-item shadow p-3 mb-5 bg-white rounded">item 4</div>
+          <div class="slider-item shadow p-3 mb-5 bg-white rounded">item 5</div>
+          <div class="slider-item shadow p-3 mb-5 bg-white rounded">item 6</div>
+        </div>
+      </section>
+      <!-- End Top Rated Section -->
 
+      <script src="js/jquery-1.11.1.min.js"></script>
       <script src="js/jquery-3.3.1.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="semantic/dist/semantic.min.js"></script>
+      <script src="js/slick.min.js"></script>
       <script src="js/main.js"></script>
     </body>
 </html>
