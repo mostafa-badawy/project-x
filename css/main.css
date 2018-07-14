@@ -301,7 +301,7 @@ body
     padding: 10px;
     border-radius: 5px;
     position: absolute;
-    bottom: -1px;
+    bottom: 23px;
 }
 
 .top-rated .slider .slider-item .rating-content
