@@ -202,7 +202,7 @@ body
 .top-rated
 {
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .top-rated .slider
@@ -224,7 +224,7 @@ body
 }
 
 .top-rated .slider .slick-prev::before,
-.top-rated .slider .slick-next:before
+.top-rated .slider .slick-next::before
 {
     font-family: FontAwesome;
     font-weight: 900;
@@ -234,9 +234,16 @@ body
     width: 80px;
     height: 80px;
     line-height: 80px;
-    border-radius: 50%;
+    border-radius: 10px;
     position: absolute;
     top: -40px;
+    opacity: .5;
+}
+
+.top-rated .slider .slick-prev:hover:before,
+.top-rated .slider .slick-next:hover:before
+{
+    opacity: 1;
 }
 
 .top-rated .slider .slick-prev::before
@@ -249,6 +256,73 @@ body
 {
     content: "\f054";
     right: 100px;
+}
+
+.top-rated .slider .ant-man-and-the-wasp
+{
+    background-image: url('../img/ant\ man\ and\ the\ wasp.jpg');
+    background-size: 265px 400px;
+}
+
+.top-rated .slider .jurassic-world-ii
+{
+    background-image: url('../img/jurassic\ world\ 2.jpg');
+    background-size: 265px 400px;
+}
+
+.top-rated .slider .black-panther
+{
+    background-image: url('../img/black\ panther.jpg');
+    background-size: 265px 400px;
+}
+
+.top-rated .slider .pacific-rim-uprising
+{
+    background-image: url('../img/Pacific\ Rim\ Uprising.jpg');
+    background-size: 265px 400px;
+}
+
+.top-rated .slider .escape-plan-ii
+{
+    background-image: url('../img/ESCAPE\ PLAN\ 2.jpg');
+    background-size: 265px 400px;
+}
+
+.top-rated .slider .the-maze-runner-iii
+{
+    background-image: url('../img/the\ maze\ runner\ 3.jpg');
+    background-size: 265px 400px;
+}
+
+.top-rated .slider .slider-item .slider-content
+{
+    background-color: #d4d4d4;
+    width: 233px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -1px;
+}
+
+.top-rated .slider .slider-item .rating-content
+{
+    float: left;
+}
+
+.top-rated .slider .slider-item .rating-content .rating-caption
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.top-rated .slider .slider-item .slider-content .massage-content
+{
+    float: right;
+}
+
+.top-rated .slider .slider-item .slider-content .massage-content .count
+{
+    font-size: 14px;
 }
 
 /*Fixed*/

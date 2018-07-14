@@ -24,4 +24,12 @@ $(document).ready(function(){
         }
         ]
     });
+    $('.ui.rating').rating({
+        initialRating: 4,
+        maxRating: 5,
+    });
+    $('.ui.rating')
+    .rating('disable')
+    ;
 });
+
