@@ -8,14 +8,14 @@
 body
 {
     font-family: 'Open Sans', sans-serif;
-    background-color: #1e272e;
+    background-color: #2980b9;
 }
 
 /* Upperbar */
 .upperbar
 {
+    background-color: #2980b9;
     width: 100%;
-    margin-top: 10px;
 }
 
 .upperbar span
@@ -33,7 +33,6 @@ body
     margin:10px 4px;
     text-align: center;
     line-height: 40px;
-    background-color: #d8d8d8;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -43,6 +42,22 @@ body
 {
     cursor: pointer;
     opacity: .9;
+}
+
+
+.upperbar .facebook
+{
+    background-color: #3b5998;
+}
+
+.upperbar .google-plus
+{
+    background-color: #dd4b39;
+}
+
+.upperbar .twitter
+{
+    background-color: #1da1f2;
 }
 
 .upperbar span,
@@ -56,19 +71,50 @@ body
 /* Navbar */
 .main-navbar
 {
-    background-color: #1e272e!important;
+    background-color: #2980b9!important;
     padding-bottom: 10px;
     clear: both;
 }
 
 .main-navbar .navbar-brand
 {
-    font-size: 60px;
-    font-family: 'Knewave', cursive;
-    transform: rotate(-10deg);
+    font-size: 40px;
     margin-left: 10px;
     position: absolute;
-    bottom: 35px;
+    bottom: 40px;
+}
+
+.main-navbar .navbar-brand .brand
+{
+    font-family: 'Bangers', cursive;
+    padding: 9px;
+    color: #192a56;
+    border: 4px solid #192a56;
+    border-right: none;
+
+}
+
+.main-navbar .navbar-brand .name
+{
+    font-family: 'Special Elite', cursive;
+    border: 4px solid #c23616;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 1px;
+    color: #e1b12c;
+    background-color: #c23616;
+}
+
+.main-navbar .navbar-brand .name::before
+{
+    content: "\f04b";
+    font-family: FontAwesome;
+    font-size: 25px;
+    color: #e1b12c;
+    padding-right: 5px;
 }
 
 .main-navbar .navbar-nav .nav-link
@@ -80,8 +126,7 @@ body
 
 .secondary-navbar
 {
-    background-color: #1e272e!important;
-    margin-top: 10px;
+    background-color: #2980b9!important;
 }
 
 .secondary-navbar .navbar-nav .nav-link
@@ -93,8 +138,8 @@ body
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
 {
-    background-color: #1e272e;
-    border-bottom-color: #1e272e;
+    background-color: #2980b9;
+    border-bottom-color: #2980b9;
 }
 
 .secondary-navbar form
@@ -105,15 +150,15 @@ body
 /* Trailers & Commented Section */
 .trailers-box-office
 {
+    background-color: #ecf0f1;
     width: 100%;
-    margin-top: 100px;
-    margin-bottom: 80px;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .trailers-box-office .latest-trailers
 {
     border: 4px solid #929292;
-    margin-bottom: 30px;
 }
 
 .trailers-box-office .box-office
@@ -121,13 +166,16 @@ body
     background-color: #FFF;
 }
 
-.trailers-box-office .box-office h4
+.trailers-box-office .box-office h3
 {
-    background-color: #d4d4d4;
-    margin-top: 20px;
+    color: #d2d2d2;
+    background-color: #000;
+    width: 100%;
     margin-bottom: 20px;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 15px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Boogaloo', cursive;
     font-weight: bold;
 }
 
@@ -135,6 +183,7 @@ body
 {
     margin-top: 25px;
     margin-bottom: 25px;
+    padding: 0px 20px 40px;
 }
 
 .trailers-box-office .box-office ul
@@ -185,8 +234,9 @@ body
 /* Top Rated */
 .top-rated
 {
-    margin-top: 40px;
-    margin-bottom: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #bdc3c7;
 }
 
 .top-rated .slider
@@ -196,8 +246,15 @@ body
 
 .top-rated .slider .slider-item
 {
+    background-color: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.top-rated .slider .slider-img
+{
     height: 400px;
-    margin: 10px;
+    margin: 5px;
     cursor: pointer;
 }
 
@@ -245,66 +302,54 @@ body
 .top-rated .slider .ant-man-and-the-wasp
 {
     background-image: url('../img/ant\ man\ and\ the\ wasp.jpg');
-    background-size: 265px 400px;
+    background-size: 256px 400px;
 }
 
 .top-rated .slider .jurassic-world-ii
 {
     background-image: url('../img/jurassic\ world\ 2.jpg');
-    background-size: 265px 400px;
+    background-size: 256px 400px;
 }
 
 .top-rated .slider .black-panther
 {
     background-image: url('../img/black\ panther.jpg');
-    background-size: 265px 400px;
+    background-size: 256px 400px;
 }
 
 .top-rated .slider .pacific-rim-uprising
 {
     background-image: url('../img/Pacific\ Rim\ Uprising.jpg');
-    background-size: 265px 400px;
+    background-size: 256px 400px;
 }
 
 .top-rated .slider .escape-plan-ii
 {
     background-image: url('../img/ESCAPE\ PLAN\ 2.jpg');
-    background-size: 265px 400px;
+    background-size: 256px 400px;
 }
 
 .top-rated .slider .the-maze-runner-iii
 {
     background-image: url('../img/the\ maze\ runner\ 3.jpg');
-    background-size: 265px 400px;
+    background-size: 256px 400px;
 }
 
-.top-rated .slider .slider-item .slider-content
+.top-rated .slider .slider-content
 {
-    background-color: #d4d4d4;
-    width: 233px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 23px;
+    margin: 5px 10px;
+    text-align: center;
 }
 
-.top-rated .slider .slider-item .rating-content
-{
-    float: left;
-}
-
-.top-rated .slider .slider-item .rating-content .rating-caption
+.top-rated .slider .rating-content .rating-caption
 {
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.top-rated .slider .slider-item .slider-content .massage-content
+.top-rated .slider .rating-content .rating-count
 {
-    float: right;
-}
-
-.top-rated .slider .slider-item .slider-content .massage-content .count
-{
+    margin-left: 20px;
     font-size: 14px;
 }
 

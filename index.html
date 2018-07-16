@@ -11,7 +11,7 @@
       <link rel="stylesheet" type="text/css" media="screen" href="semantic/dist/semantic.min.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="css/slick.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="css/slick-theme.css" />
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Knewave|Open+Sans" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bangers|Boogaloo|Caveat|Coda+Caption:800|Concert+One|Covered+By+Your+Grace|Gloria+Hallelujah|Kalam|Kaushan+Script|Knewave|Lobster|Luckiest+Guy|Marck+Script|Neucha|Open+Sans|Prompt|Righteous|Special+Elite|Wendy+One">
       <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
       <!--[if lt IE 9]>
       <script src="script/html5shiv.min.js"></script>
@@ -22,9 +22,9 @@
       <!-- Start Upperbar -->
       <div class="upperbar">
         <div class="container">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-          <i class="fa fa-google-plus" aria-hidden="true"></i>
-          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="facebook fa fa-facebook" aria-hidden="true"></i>
+          <i class="google-plus fa fa-google-plus" aria-hidden="true"></i>
+          <i class="twitter fa fa-twitter" aria-hidden="true"></i>
           <span>follow us on</span>
         </div>
       </div>
@@ -33,7 +33,10 @@
       <!-- Start Main Navbar -->
       <nav class="navbar main-navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand shadow" href="#">
+            <span class="brand">Brand</span>
+            <span class="name shadow">name</span>
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -44,19 +47,19 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tv Shows</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">In Theaters</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Coming Soon</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Conact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Advertise</a>
               </li>
             </ul>
           </div>
@@ -84,7 +87,7 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              <button class="btn btn-warning my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
             </form>
           </div>
         </div>
@@ -103,8 +106,8 @@
               </article>
             </div>
             <div class="col-xl-4">
-              <aside class="box-office shadow-sm p-3 mb-5 bg-white rounded">
-                <h4>Box Office</h4>
+              <aside class="box-office shadow-sm rounded">
+                <h3>Box Office</h3>
                 <div class="box-office-content">
                   <ul class="box-office-ul list-unstyled">
                     <li class="box-offfice-item">
@@ -146,75 +149,63 @@
       <!-- Start Top Rated Section -->
       <section class="top-rated">
         <div class="slider">
-          <div class="slider-item ant-man-and-the-wasp shadow p-3 mb-5 rounded">
-            <div class="slider-content shadow-sm p-2">
+          <div class="slider-item shadow rounded">
+            <div class="slider-img ant-man-and-the-wasp"></div>
+            <div class="slider-content">
               <div class="rating-content">
                 <span class="rating-caption">rating</span>
                 <div class="ui star rating disable"></div>
-              </div>
-              <div class="massage-content">
-                <i class="fa fa-comment-o" aria-hidden="true"></i>
-                <span class="count">12</span>
+                <span class="rating-count">4.5</span>
               </div>
             </div>
           </div>
-          <div class="slider-item jurassic-world-ii shadow p-3 mb-5 rounded">
-            <div class="slider-content shadow-sm p-2">
+          <div class="slider-item shadow rounded">
+            <div class="slider-img jurassic-world-ii"></div>
+            <div class="slider-content">
               <div class="rating-content">
                 <span class="rating-caption">rating</span>
                 <div class="ui star rating disable"></div>
-              </div>
-              <div class="massage-content">
-                <i class="fa fa-comment-o" aria-hidden="true"></i>
-                <span class="count">12</span>
+                <span class="rating-count">4.5</span>
               </div>
             </div>
           </div>
-          <div class="slider-item black-panther shadow p-3 mb-5 rounded">
-            <div class="slider-content shadow-sm p-2">
+          <div class="slider-item shadow rounded">
+            <div class="slider-img black-panther"></div>
+            <div class="slider-content">
               <div class="rating-content">
                 <span class="rating-caption">rating</span>
                 <div class="ui star rating disable"></div>
-              </div>
-              <div class="massage-content">
-                <i class="fa fa-comment-o" aria-hidden="true"></i>
-                <span class="count">12</span>
+                <span class="rating-count">4.5</span>
               </div>
             </div>
           </div>
-          <div class="slider-item pacific-rim-uprising shadow p-3 mb-5 rounded">
-            <div class="slider-content shadow-sm p-2">
+          <div class="slider-item shadow rounded">
+            <div class="slider-img pacific-rim-uprising"></div>
+            <div class="slider-content">
               <div class="rating-content">
                 <span class="rating-caption">rating</span>
                 <div class="ui star rating disable"></div>
-              </div>
-              <div class="massage-content">
-                <i class="fa fa-comment-o" aria-hidden="true"></i>
-                <span class="count">12</span>
+                <span class="rating-count">4.5</span>
               </div>
             </div>
           </div>
-          <div class="slider-item escape-plan-ii shadow p-3 mb-5 rounded">
-            <div class="slider-content shadow-sm p-2">
+          <div class="slider-item shadow rounded">
+            <div class="slider-img escape-plan-ii"></div>
+            <div class="slider-content">
               <div class="rating-content">
                 <span class="rating-caption">rating</span>
                 <div class="ui star rating disable"></div>
-              </div>
-              <div class="massage-content">
-                <i class="fa fa-comment-o" aria-hidden="true"></i>
-                <span class="count">12</span>
+                <span class="rating-count">4.5</span>
               </div>
             </div>
           </div>
-          <div class="slider-item the-maze-runner-iii shadow p-3 mb-5 rounded">
-            <div class="slider-content shadow-sm p-2">
+          <div class="slider-item shadow rounded">
+            <div class="slider-img the-maze-runner-iii"></div>
+            <div class="slider-content">
               <div class="rating-content">
                 <span class="rating-caption">rating</span>
                 <div class="ui star rating disable"></div>
-              </div>
-              <div class="massage-content">
-                <i class="fa fa-comment-o" aria-hidden="true"></i>
-                <span class="count">12</span>
+                <span class="rating-count">4.5</span>
               </div>
             </div>
           </div>
