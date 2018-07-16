@@ -16,6 +16,7 @@ body
 {
     background-color: #2980b9;
     width: 100%;
+    margin-top: 5px;
 }
 
 .upperbar span
@@ -81,7 +82,7 @@ body
     font-size: 40px;
     margin-left: 10px;
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
 }
 
 .main-navbar .navbar-brand .brand
