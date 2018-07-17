@@ -5,21 +5,21 @@ $(document).ready(function(){
         slidesToShow: 4,
         responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 1200,
             settings: {
-            arrows: true,
+            arrows: false,
             centerMode: true,
             centerPadding: '40px',
-            slidesToShow: 4
+            slidesToShow: 3
             }
         },
         {
             breakpoint: 480,
             settings: {
-            arrows: true,
+            arrows: false,
             centerMode: true,
             centerPadding: '40px',
-            slidesToShow: 1
+            slidesToShow: 2
             }
         }
         ]

@@ -79,10 +79,10 @@ body
 
 .main-navbar .navbar-brand
 {
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 10px;
     position: absolute;
-    bottom: 30px;
+    bottom: 35px;
 }
 
 .main-navbar .navbar-brand .brand
@@ -203,6 +203,7 @@ body
 {
     font-size: 14px;
     margin-left: 10px;
+    color: #074e9a;
 }
 
 .trailers-box-office .box-office ul li .badge
@@ -224,6 +225,7 @@ body
 {
     margin-left: 10px;
     font-size: 14px;
+    color: #074e9a;
 }
 
 .trailers-box-office .box-office .icon
