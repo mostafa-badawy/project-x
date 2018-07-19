@@ -196,6 +196,16 @@ body
     background-color: #6c757d;
 }
 
+.trailers-box-office .latest-trailers .carousel-indicators li::after
+{
+    display: none;
+}
+
+.trailers-box-office .latest-trailers .carousel-indicators li::before
+{
+    display: none;
+}
+
 .trailers-box-office .latest-trailers .carousel-indicators .more
 {
     width: 90px;
