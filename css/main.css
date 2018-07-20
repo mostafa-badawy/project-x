@@ -23,47 +23,23 @@ body
 {
     display: inline-block;
     color: #FFF;
-    top: 18px;
+    top: 10px;
     margin-right: 10px;
     text-transform: uppercase;
 }
 
-.upperbar i
+.upperbar .icon i
 {
     color: #FFF;
-    margin:10px 4px;
-    text-align: center;
-    line-height: 40px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.upperbar i:hover
-{
-    cursor: pointer;
-    opacity: .9;
-}
-
-
-.upperbar .facebook
-{
-    background-color: #3b5998;
-}
-
-.upperbar .google-plus
-{
-    background-color: #dd4b39;
-}
-
-.upperbar .twitter
-{
-    background-color: #1da1f2;
+    height: 18px;
+    width: 18px;
 }
 
 .upperbar span,
-.upperbar i
+.upperbar .icon
 {
+    margin-top: 10px;
+    margin-bottom: 10px;
     float: right;
     position: relative;
     right: 20px;
@@ -135,12 +111,6 @@ body
     margin-left: 10px;
     margin-right: 10px;
     text-transform: uppercase;
-}
-
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
-{
-    background-color: #2980b9;
-    border-bottom-color: #2980b9;
 }
 
 .secondary-navbar form
@@ -321,11 +291,9 @@ body
     margin-right: 10px;
 }
 
-.top-rated .slider .slider-img
+.top-rated .slider .image
 {
-    height: 400px;
     margin: 5px;
-    cursor: pointer;
 }
 
 .top-rated .slider .slick-prev,
@@ -369,42 +337,6 @@ body
     right: 100px;
 }
 
-.top-rated .slider .ant-man-and-the-wasp
-{
-    background-image: url('../img/ant\ man\ and\ the\ wasp.jpg');
-    background-size: 256px 400px;
-}
-
-.top-rated .slider .jurassic-world-ii
-{
-    background-image: url('../img/jurassic\ world\ 2.jpg');
-    background-size: 256px 400px;
-}
-
-.top-rated .slider .black-panther
-{
-    background-image: url('../img/black\ panther.jpg');
-    background-size: 256px 400px;
-}
-
-.top-rated .slider .pacific-rim-uprising
-{
-    background-image: url('../img/Pacific\ Rim\ Uprising.jpg');
-    background-size: 256px 400px;
-}
-
-.top-rated .slider .escape-plan-ii
-{
-    background-image: url('../img/ESCAPE\ PLAN\ 2.jpg');
-    background-size: 256px 400px;
-}
-
-.top-rated .slider .the-maze-runner-iii
-{
-    background-image: url('../img/the\ maze\ runner\ 3.jpg');
-    background-size: 256px 400px;
-}
-
 .top-rated .slider .slider-content
 {
     margin: 5px 10px;
@@ -420,6 +352,32 @@ body
 .top-rated .slider .rating-content .rating-count
 {
     margin-left: 20px;
+    font-size: 14px;
+}
+
+/* News Sample */
+.news-sample
+{
+    padding-top: 25px;
+    background-color: #ecf0f1;
+}
+
+.news-sample .ui.card
+{
+    border-top: 10px solid #000;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: unset;
+}
+
+.news-sample .ui.card .content .info
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ui.card>.content p, .ui.cards>.card>.content p
+{
     font-size: 14px;
 }
 
