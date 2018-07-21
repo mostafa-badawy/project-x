@@ -370,6 +370,12 @@ body
     border-radius: unset;
 }
 
+.ui.card>.image:not(.ui)>img, 
+.ui.cards>.card>.image:not(.ui)>img
+{
+    border-radius: unset;
+}
+
 .news-sample .ui.card .content .info
 {
     margin-top: 15px;
