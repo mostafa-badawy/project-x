@@ -1,368 +1,375 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <title>Page Title</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
-      <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
-      <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-      <link rel="stylesheet" type="text/css" media="screen" href="semantic/dist/semantic.min.css" />
-      <link rel="stylesheet" type="text/css" media="screen" href="css/slick.css" />
-      <link rel="stylesheet" type="text/css" media="screen" href="css/slick-theme.css" />
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bangers|Boogaloo|Caveat|Coda+Caption:800|Concert+One|Covered+By+Your+Grace|Gloria+Hallelujah|Kalam|Kaushan+Script|Knewave|Lobster|Luckiest+Guy|Marck+Script|Neucha|Open+Sans|Prompt|Righteous|Special+Elite|Wendy+One|Gloria+Hallelujah|Josefin+Sans" />
-      <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-      <!--[if lt IE 9]>
-      <script src="script/html5shiv.min.js"></script>
-      <script src="script/respond.min.js"></script>
-      <![endif]-->
-    </head>
-    <body>
-      <!-- Start Upperbar -->
-      <div class="upperbar">
-        <div class="container">
-          <button class="ui circular facebook icon button shadow-sm">
-            <i class="facebook fa fa-facebook shadow-sm" aria-hidden="true"></i>
-          </button>
-          <button class="ui circular google plus icon button shadow-sm">
-            <i class="google-plus fa fa-google-plus shadow-sm" aria-hidden="true"></i>
-          </button>
-          <button class="ui circular twitter icon button shadow-sm">
-            <i class="twitter fa fa-twitter shadow-sm" aria-hidden="true"></i>
-          </button>
-          <span>follow us on</span>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="semantic/dist/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bangers|Boogaloo|Caveat|Coda+Caption:800|Concert+One|Covered+By+Your+Grace|Gloria+Hallelujah|Kalam|Kaushan+Script|Knewave|Lobster|Luckiest+Guy|Marck+Script|Neucha|Open+Sans|Prompt|Righteous|Special+Elite|Wendy+One|Gloria+Hallelujah|Josefin+Sans" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!--[if lt IE 9]>
+    <script src="script/html5shiv.min.js"></script>
+    <script src="script/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Start Upperbar -->
+    <div class="upperbar">
+      <div class="container">
+        <button class="ui circular facebook icon button shadow-sm">
+          <i class="facebook fa fa-facebook" aria-hidden="true"></i>
+        </button>
+        <button class="ui circular google plus icon button shadow-sm">
+          <i class="google-plus fa fa-google-plus" aria-hidden="true"></i>
+        </button>
+        <button class="ui circular twitter icon button shadow-sm">
+          <i class="twitter fa fa-twitter" aria-hidden="true"></i>
+        </button>
+        <span>follow us on</span>
+      </div>
+    </div>
+    <!-- End Upperbar -->
+
+    <!-- Start Main Navbar -->
+    <nav class="navbar main-navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="brand shadow">Brand</span>
+          <span class="name shadow rounded-right">name</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tv Shows</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">News <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conact</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <!-- End Upperbar -->
+    </nav>
+    <!-- End Main Navbar -->
+    
+    <!-- Start secondary Navbar -->
+    <nav class="navbar secondary-navbar navbar-expand-lg navbar-dark bg-dark shadow">
+      <div class="container">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Show All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Latest Trailers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Top Rated</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New News</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-warning my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End secondary Navbar -->
+    
+    <!-- Start Latest-Trailers & Box-Office Section -->
+    <section class="trailers-box-office">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8">
+            <article id="mainSlider" class="latest-trailers carousel slide shadow rounded-bottom" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/8_rTIAOohas" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/u9Mv98Gr5pY" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/vn9mMeWcgoM" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/-HLyWPjAeuA" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/q_oZdUKlTRs" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="carousal-control">
+                <ol class="carousel-indicators">
+                  <li data-target="#mainSlider" data-slide-to="0" class="active">1</li>
+                  <li data-target="#mainSlider" data-slide-to="1">2</li>
+                  <li data-target="#mainSlider" data-slide-to="2">3</li>
+                  <li data-target="#mainSlider" data-slide-to="3">4</li>
+                  <li data-target="#mainSlider" data-slide-to="4">5</li>
+                  <a href="#">More</a>
+                </ol>
+              </div>
+            </article>
+          </div>
+          <div class="col-xl-4">
+            <aside class="box-office shadow rounded-bottom">
+              <h3>Box Office</h3>
+              <div class="box-office-content">
+                <ul class="box-office-ul list-unstyled">
+                  <li class="box-offfice-item">
+                    <span class="badge badge-secondary">1</span>
+                    <a class="box-offfice-link" href="#">Ant-Man and the Wasp</a>
+                    <span class="count">$75.8M</span>
+                  </li>
+                  <li class="box-offfice-item">
+                    <span class="badge badge-secondary">2</span>
+                    <a class="box-offfice-link" href="#">Jurassic World: Fallen Kingdom</a>
+                    <span class="count">$28.6M</span>
+                  </li>
+                  <li class="box-offfice-item">
+                    <span class="badge badge-secondary">3</span>
+                    <a class="box-offfice-link" href="#">Incredibles 2</a>
+                    <span class="count">$28.4M</span>
+                  </li>
+                  <li class="box-offfice-item">
+                    <span class="badge badge-secondary">4</span>
+                    <a class="box-offfice-link" href="#">The First Purge</a>
+                    <span class="count">$17.4M</span>
+                  </li>
+                  <li class="box-offfice-item">
+                    <span class="badge badge-secondary">5</span>
+                    <a class="box-offfice-link" href="#">Sicario: Day of the Soldado</a>
+                    <span class="count">$7.6M</span>
+                  </li>
+                </ul>
+                <a class="see-more" href="#">See more box office results</a>
+                <i class="icon fas fa-angle-double-right"></i>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Latest-Trailers & Most-Commented Section -->
 
-      <!-- Start Main Navbar -->
-      <nav class="navbar main-navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <span class="brand shadow">Brand</span>
-            <span class="name shadow rounded-right">name</span>
+    <!-- Start Top Rated Section -->
+    <section class="top-rated">
+      <div class="slider">
+        <div class="ui card slider-item shadow rounded">
+          <a class="image" href="#">
+            <img src="img/ant-man-and-the-wasp.jpg">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Movies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Tv Shows</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">News <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Conact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- End Main Navbar -->
-      
-      <!-- Start secondary Navbar -->
-      <nav class="navbar secondary-navbar navbar-expand-lg navbar-dark bg-dark shadow">
-        <div class="container">
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Show All</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Latest Trailers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Top Rated</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">New News</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-warning my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <!-- End secondary Navbar -->
-      
-      <!-- Start Latest-Trailers & Box-Office Section -->
-      <section class="trailers-box-office">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-8">
-              <article id="mainSlider" class="latest-trailers carousel slide shadow rounded-bottom" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/8_rTIAOohas" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/u9Mv98Gr5pY" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/vn9mMeWcgoM" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/-HLyWPjAeuA" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="530" height="315" src="https://www.youtube.com/embed/q_oZdUKlTRs" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousal-control">
-                  <ol class="carousel-indicators">
-                    <li data-target="#mainSlider" data-slide-to="0" class="active">1</li>
-                    <li data-target="#mainSlider" data-slide-to="1">2</li>
-                    <li data-target="#mainSlider" data-slide-to="2">3</li>
-                    <li data-target="#mainSlider" data-slide-to="3">4</li>
-                    <li data-target="#mainSlider" data-slide-to="4">5</li>
-                    <li class="more" ><a href="#">More</a></li>
-                  </ol>
-                </div>
-              </article>
+          <div class="slider-content">
+            <div class="rating-content">
+              <span class="rating-caption">rating</span>
+              <div class="ui star rating disable"></div>
+              <span class="rating-count">4.5</span>
             </div>
-            <div class="col-xl-4">
-              <aside class="box-office shadow rounded-bottom">
-                <h3>Box Office</h3>
-                <div class="box-office-content">
-                  <ul class="box-office-ul list-unstyled">
-                    <li class="box-offfice-item">
-                      <span class="badge badge-secondary">1</span>
-                      <a class="box-offfice-link" href="#">Ant-Man and the Wasp</a>
-                      <span class="count">$75.8M</span>
-                    </li>
-                    <li class="box-offfice-item">
-                      <span class="badge badge-secondary">2</span>
-                      <a class="box-offfice-link" href="#">Jurassic World: Fallen Kingdom</a>
-                      <span class="count">$28.6M</span>
-                    </li>
-                    <li class="box-offfice-item">
-                      <span class="badge badge-secondary">3</span>
-                      <a class="box-offfice-link" href="#">Incredibles 2</a>
-                      <span class="count">$28.4M</span>
-                    </li>
-                    <li class="box-offfice-item">
-                      <span class="badge badge-secondary">4</span>
-                      <a class="box-offfice-link" href="#">The First Purge</a>
-                      <span class="count">$17.4M</span>
-                    </li>
-                    <li class="box-offfice-item">
-                      <span class="badge badge-secondary">5</span>
-                      <a class="box-offfice-link" href="#">Sicario: Day of the Soldado</a>
-                      <span class="count">$7.6M</span>
-                    </li>
-                  </ul>
-                  <a class="see-more" href="#">See more box office results</a>
+          </div>
+        </div>
+        <div class="ui card slider-item shadow rounded">
+          <a class="image" href="#">
+            <img src="img/jurassic-world-2.jpg">
+          </a>
+          <div class="slider-content">
+            <div class="rating-content">
+              <span class="rating-caption">rating</span>
+              <div class="ui star rating disable"></div>
+              <span class="rating-count">4.5</span>
+            </div>
+          </div>
+        </div>
+        <div class="ui card slider-item shadow rounded">
+          <a class="image" href="#">
+            <img src="img/black-panther.jpg">
+          </a>
+          <div class="slider-content">
+            <div class="rating-content">
+              <span class="rating-caption">rating</span>
+              <div class="ui star rating disable"></div>
+              <span class="rating-count">4.5</span>
+            </div>
+          </div>
+        </div>
+        <div class="ui card slider-item shadow rounded">
+          <a class="image" href="#">
+            <img src="img/pacific-rim-uprising.jpg">
+          </a>
+          <div class="slider-content">
+            <div class="rating-content">
+              <span class="rating-caption">rating</span>
+              <div class="ui star rating disable"></div>
+              <span class="rating-count">4.5</span>
+            </div>
+          </div>
+        </div>
+        <div class="ui card slider-item shadow rounded">
+          <a class="image" href="#">
+            <img src="img/escape-plan-2.jpg">
+          </a>
+          <div class="slider-content">
+            <div class="rating-content">
+              <span class="rating-caption">rating</span>
+              <div class="ui star rating disable"></div>
+              <span class="rating-count">4.5</span>
+            </div>
+          </div>
+        </div>
+        <div class="ui card slider-item shadow rounded">
+          <a class="image" href="#">
+            <img src="img/the-maze-runner-3.jpg">
+          </a>
+          <div class="slider-content">
+            <div class="rating-content">
+              <span class="rating-caption">rating</span>
+              <div class="ui star rating disable"></div>
+              <span class="rating-count">4.5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Top Rated Section -->
+
+    <!-- Start News Sample -->
+    <div class="news-sample">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="ui card centered shadow rounded-bottom">
+              <a class="image" href="#">
+                <img src="img/Aquaman-poster.png">
+              </a>
+              <div class="content">
+                <div class="header">Aquaman’s Jason Momoa Auditioned For A Russo Bros Marvel Movie</div>
+                <div class="info">
+                  <span class="meta">2 days ago</span>
+                  <span class="right floated">
+                    <i class="comment icon"></i>
+                    3 comments
+                  </span>
+                </div>
+                <div class="description">
+                  <p>Had events turned out differently, we might have seen Jason Momoa appearing in one of the Russo Bros' Marvel movies.</p>
+                  <a class="see-more" href="#">See More</a>
                   <i class="icon fas fa-angle-double-right"></i>
                 </div>
-              </aside>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Latest-Trailers & Most-Commented Section -->
-
-      <!-- Start Top Rated Section -->
-      <section class="top-rated">
-        <div class="slider">
-          <div class="ui card slider-item shadow rounded">
-            <a class="image" href="#">
-              <img src="img/ant-man-and-the-wasp.jpg">
-            </a>
-            <div class="slider-content">
-              <div class="rating-content">
-                <span class="rating-caption">rating</span>
-                <div class="ui star rating disable"></div>
-                <span class="rating-count">4.5</span>
               </div>
             </div>
           </div>
-          <div class="ui card slider-item shadow rounded">
-            <a class="image" href="#">
-              <img src="img/jurassic-world-2.jpg">
-            </a>
-            <div class="slider-content">
-              <div class="rating-content">
-                <span class="rating-caption">rating</span>
-                <div class="ui star rating disable"></div>
-                <span class="rating-count">4.5</span>
-              </div>
-            </div>
-          </div>
-          <div class="ui card slider-item shadow rounded">
-            <a class="image" href="#">
-              <img src="img/black-panther.jpg">
-            </a>
-            <div class="slider-content">
-              <div class="rating-content">
-                <span class="rating-caption">rating</span>
-                <div class="ui star rating disable"></div>
-                <span class="rating-count">4.5</span>
-              </div>
-            </div>
-          </div>
-          <div class="ui card slider-item shadow rounded">
-            <a class="image" href="#">
-              <img src="img/pacific-rim-uprising.jpg">
-            </a>
-            <div class="slider-content">
-              <div class="rating-content">
-                <span class="rating-caption">rating</span>
-                <div class="ui star rating disable"></div>
-                <span class="rating-count">4.5</span>
-              </div>
-            </div>
-          </div>
-          <div class="ui card slider-item shadow rounded">
-            <a class="image" href="#">
-              <img src="img/escape-plan-2.jpg">
-            </a>
-            <div class="slider-content">
-              <div class="rating-content">
-                <span class="rating-caption">rating</span>
-                <div class="ui star rating disable"></div>
-                <span class="rating-count">4.5</span>
-              </div>
-            </div>
-          </div>
-          <div class="ui card slider-item shadow rounded">
-            <a class="image" href="#">
-              <img src="img/the-maze-runner-3.jpg">
-            </a>
-            <div class="slider-content">
-              <div class="rating-content">
-                <span class="rating-caption">rating</span>
-                <div class="ui star rating disable"></div>
-                <span class="rating-count">4.5</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Top Rated Section -->
-
-      <!-- Start News Sample -->
-      <div class="news-sample">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="ui centered card shadow rounded-bottom">
-                <a class="image" href="#">
-                  <img src="img/Aquaman-poster.png">
-                </a>
-                <div class="content">
-                  <div class="header">Aquaman’s Jason Momoa Auditioned For A Russo Bros Marvel Movie</div>
-                  <div class="info">
-                    <span class="meta">2 days ago</span>
-                    <span class="right floated">
-                      <i class="comment icon"></i>
-                      3 comments
-                    </span>
-                  </div>
-                  <div class="description">
-                    <p>Had events turned out differently, we might have seen Jason Momoa appearing in one of the Russo Bros' Marvel movies.</p>
-                    <a href="#">See More</a>
-                  </div>
+          <div class="col-lg-6">
+            <div class="ui card centered shadow rounded-bottom">
+              <a class="image" href="#">
+                <img src="/img/Doctor-Strange-poster.jpg">
+              </a>
+              <div class="content">
+                <div class="header">Benedict Cumberbatch Was 'Thrilled' By Avengers 4 Story Pitch</div>
+                <div class="info">
+                  <span class="meta">2 days ago</span>
+                  <span class="right floated">
+                    <i class="comment icon"></i>
+                    3 comments
+                  </span>
+                </div>
+                <div class="description">
+                  <p>Doctor Strange actor Benedict Cumberbatch says he's 'thrilled' with the story that Marvel Studios plans to tell in next year's Avengers 4.</p>
+                  <a class="see-more" href="#">See More</a>
+                  <i class="icon fas fa-angle-double-right"></i>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="ui centered card shadow rounded-bottom">
-                <a class="image" href="#">
-                  <img src="/img/Doctor-Strange-poster.jpg">
-                </a>
-                <div class="content">
-                  <div class="header">Benedict Cumberbatch Was 'Thrilled' By Avengers 4 Story Pitch</div>
-                  <div class="info">
-                    <span class="meta">2 days ago</span>
-                    <span class="right floated">
-                      <i class="comment icon"></i>
-                      3 comments
-                    </span>
-                  </div>
-                  <div class="description">
-                    <p>Doctor Strange actor Benedict Cumberbatch says he's 'thrilled' with the story that Marvel Studios plans to tell in next year's Avengers 4.</p>
-                    <a href="#">See More</a>
-                  </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="ui card centered shadow rounded-bottom">
+              <a class="image" href="#">
+                <img src="/img/John-Wick-3-poster.jpg">
+              </a>
+              <div class="content">
+                <div class="header">Keanu Reeves Escapes On A Horse In New John Wick 3 Photo</div>
+                <div class="info">
+                  <span class="meta">2 days ago</span>
+                  <span class="right floated">
+                    <i class="comment icon"></i>
+                    3 comments
+                  </span>
+                </div>
+                <div class="description">
+                  <p>Keanu Reeves escapes on a horse through the streets of New York City in a new set photo from Chad Stahelski's 2019 film, John Wick: Chapt.</p>
+                  <a class="see-more" href="#">See More</a>
+                  <i class="icon fas fa-angle-double-right"></i>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="ui centered card shadow rounded-bottom">
-                <a class="image" href="#">
-                  <img src="/img/John-Wick-3-poster.jpg">
-                </a>
-                <div class="content">
-                  <div class="header">Keanu Reeves Escapes On A Horse In New John Wick 3 Photo</div>
-                  <div class="info">
-                    <span class="meta">2 days ago</span>
-                    <span class="right floated">
-                      <i class="comment icon"></i>
-                      3 comments
-                    </span>
-                  </div>
-                  <div class="description">
-                    <p>Keanu Reeves escapes on a horse through the streets of New York City in a new set photo from Chad Stahelski's 2019 film, John Wick: Chapt.</p>
-                    <a href="#">See More</a>
-                  </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="ui card centered shadow rounded-bottom">
+              <a class="image" href="#">
+                <img src="/img/Snap-Wexley-in-Star-Wars-poster.jpg">
+              </a>
+              <div class="content">
+                <div class="header">Greg Grunberg Hints at Star Wars IX Return as Snap Wexley</div>
+                <div class="info">
+                  <span class="meta">2 days ago</span>
+                  <span class="right floated">
+                    <i class="comment icon"></i>
+                    3 comments
+                  </span>
+                </div>
+                <div class="description">
+                  <p>Actor Greg Grunberg all but confirms that his character, Resistance pilot Snap Wexley will be returning in J.J. Abrams' Star Wars Episode 9.</p>
+                  <a class="see-more" href="#">See More</a>
+                  <i class="icon fas fa-angle-double-right"></i>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="ui centered card shadow rounded-bottom">
-                <a class="image" href="#">
-                  <img src="/img/Snap-Wexley-in-Star-Wars-poster.jpg">
-                </a>
-                <div class="content">
-                  <div class="header">Greg Grunberg Hints at Star Wars IX Return as Snap Wexley</div>
-                  <div class="info">
-                    <span class="meta">2 days ago</span>
-                    <span class="right floated">
-                      <i class="comment icon"></i>
-                      3 comments
-                    </span>
-                  </div>
-                  <div class="description">
-                    <p>Actor Greg Grunberg all but confirms that his character, Resistance pilot Snap Wexley will be returning in J.J. Abrams' Star Wars Episode 9.</p>
-                    <a href="#">See More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          </div>
+          <div class="more col-lg-12 d-flex justify-content-center">
+            <a href="#" class="ui button">More</a>
           </div>
         </div>
       </div>
-      <!-- End News Sample -->
+    </div>
+    <!-- End News Sample -->
 
-      <script src="js/jquery-1.11.1.min.js"></script>
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="semantic/dist/semantic.min.js"></script>
-      <script src="js/slick.min.js"></script>
-      <script src="js/main.js"></script>
-    </body>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
